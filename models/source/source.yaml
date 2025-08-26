@@ -1,0 +1,28 @@
+version: 2
+
+sources:
+  - name: raw_bi_car 
+    database: BOOSTER_DB
+    schema: PUBLIC
+    tables: 
+      - name: CARSALES
+        description: "Tabla de datos de ventas desde la db transaccional."
+        columns:
+          - name: DDATE
+            description: "La fecha de venta del vehiculo."
+          - name: SALESPERSON
+            description: "Vendedor a cargo."
+          - name: CUSTOMERNAME
+            description: "Nombre del cliente."
+          - name: CARMAKE
+            description: "Nombre de la marca del vehiculo."
+          - name: CARMODEL
+            description: "Nombre del modelo del vehiculo."
+          - name: CARYEAR
+            description: "Anio de fabricacion del vehiculo."
+          - name: SALEPRICE
+            description: "Precio de venta del vehiculo."
+          - name: COMMISSIONRATE
+            description: "Tasa de comision."
+          - name: COMMISSIONEARNED
+            description: "Comision obtenida."

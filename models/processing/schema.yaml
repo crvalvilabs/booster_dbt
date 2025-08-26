@@ -1,0 +1,14 @@
+models:
+  - name: psg_monthly_sales_make
+    description: "Modelo intermedio que agrupa las ventas de manera mensual por marca del auto y vendedor"
+    columns:
+      - name: DDATE
+        description: "Solo se encuentran fechas de inicio de cada mes."
+      - name: SALESPERSON
+        description: "Nombre del vendedor."
+      - name: CARMAKE
+        description: "Nombre de la marca del vehiculo."
+      - name: TOTALSALE
+        description: "Total de ventas."
+      - name: TOTALCOM
+        description: "Total de comision obtenida."
